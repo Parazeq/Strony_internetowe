@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: azure;
+    font-family: Arial;
+}
+
+header {
+    background-color: azure;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer {
+    background-color: azure;
+    color: black;
+    padding: 1px;
+}

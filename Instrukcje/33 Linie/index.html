@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linie</title>
+  <style>
+    canvas {
+      border: 1px dashed black;
+
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      var canvas = document.getElementById("drawingCanvas");
+      var context = canvas.getContext("2d");
+      context.lineWidth = 20;
+      context.strokeStyle = "rgb(636,124,636)";
+      context.moveTo(50,10);
+      context.lineTo(50,400);
+      context.lineCap = "butt";
+      context.stroke();
+      context.strokeStyle = "rgb(854,324,35)";
+      context.beginPath();
+      context.moveTo(120,10);
+      context.lineTo(120,400);
+      context.lineCap = "round";
+      context.stroke();
+      context.strokeStyle = "rgb(241,63,85)";
+      context.beginPath();
+      context.moveTo(190,10);
+      context.lineTo(190,400);
+      context.lineCap = "square";
+      context.stroke();
+      context.strokeStyle = "rgb(425,63,86)";
+    };
+  </script>
+</head>
+
+<body>
+<meta name="author" content="Jakub Kocur" />
+<canvas id="drawingCanvas" width="500" height="300"></canvas>
+</body>
+</html>

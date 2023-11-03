@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+#container {
+    background-color: aqua;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: grey;
+    float: left;
+    width: 400px;
+    padding-left: 20px;
+}
+
+article {
+    background-color: white;
+    float: right;
+    width: 800px;
+    border: black 1px solid;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 5px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Krzywe Beziera</title>
+    <style>
+        canvas {
+            border: 8px dashed black;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.getElementById("drawingCanvas");
+            var context = canvas.getContext("2d");
+            context.moveTo(62, 242);
+            var control1_x = 187;
+            var control1_y = 32;
+            var control2_x = 429;
+            var control2_y = 480;
+            var endPointX = 365;
+            var endPointY = 133;
+            context.bezierCurveTo(control1_x, control1_y, control2_x,
+                control2_y, endPointX, endPointY);
+            context.stroke();
+        }
+    </script>
+</head>
+<body>
+<meta name="author" content="Jakub Kocur" />
+<canvas id="drawingCanvas" width="500" height="500"></canvas>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-color: cornflowerblue;
+    color: darkblue;
+    font-family: "Bookman Old Style";
+    width: 50%;
+    margin: auto;
+}
+fieldset{
+    background-color: darkcyan;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+div{
+    text-align: center;
+}

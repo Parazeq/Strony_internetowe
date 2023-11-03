@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transformatory</title>
+    <script>
+        window.onload = function () {
+            var canvas = document.getElementById("drawingCanvas");
+            var context = canvas.getContext("2d");
+            context.rect(0, 0, 30, 30);
+            context.translate(50, 50);
+            context.rect(0, 0, 30, 30);
+            context.translate(50, 50);
+            context.rect(0, 0, 30, 30);
+            context.stroke();
+        }
+    </script>
+</head>
+<body>
+<meta name="author" content="Jakub Kocur" />
+<canvas id="drawingCanvas" width="500" height="500"></canvas>
+</body>
+</html>

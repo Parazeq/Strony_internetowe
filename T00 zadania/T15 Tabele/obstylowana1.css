@@ -1,0 +1,12 @@
+body {
+    background-color: bisque;
+}
+table {
+    width: 75%;
+    height:100px;
+    padding: 10px;
+    margin: 15px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px grey;
+}
