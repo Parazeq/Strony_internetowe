@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+#kontener {
+    background-color: aqua;
+    width: 1503px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#naglowek {
+    padding: 30px;
+    padding-left: 1000px;
+    background-color: black;
+    color: white;
+    float: none;
+}
+
+#blok-lewy {
+    padding: 70px;
+    padding-left: 40px;
+    width: 600px;
+    background-color: grey;
+    color: black;
+    float: left;
+}
+
+#blok-prawy {
+    padding-top: 5px;
+    padding: 100px;
+    background-color: yellow;
+    float: right;
+    width: 903px;
+}
+
+#stopka {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+}
