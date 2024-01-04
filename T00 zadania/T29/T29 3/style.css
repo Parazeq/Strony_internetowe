@@ -1,0 +1,35 @@
+:root {
+    font-size: 18px;
+}
+
+.naglowek {
+    font-size: 1.3rem;
+}
+
+.akapit {
+    float: right;
+    padding-right: 200px;
+    width: 20vw;
+    height: 20vw;
+}
+
+.lista {
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+.lista li:first-child {
+    font-size: 1.6em;
+}
+
+.lista li:nth-child(2) {
+    font-size: 2em;
+}
+
+.lista li:nth-child(3) {
+    font-size: 2.6em;
+}
+
+.lista li:last-child {
+    font-size: 4em;
+}

@@ -1,0 +1,95 @@
+body {
+    background-color: darkred;
+}
+
+#container {
+    width: 1400px;
+    height: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: red;
+    padding: 5px;
+    float: left;
+    width: 1390px;
+}
+
+#menu {
+    float: left;
+    text-decoration: none;
+    display: flex;
+    background-color: black;
+    opacity: 90%;
+    color: white;
+}
+
+#menu1 {
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    float: left;
+    margin-left: 10px;
+    text-decoration: none;
+    display: flex;
+}
+
+#menu2 {
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    float: left;
+    margin-left: 10px;
+    text-decoration: none;
+    display: flex;
+}
+
+#menu1 a , #menu a , #menu2 a{
+    text-decoration: none;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+#blok-glowny {
+    background-image: image-set("image.jpg");
+    width: 1400px;
+    height: 900px;
+    border-top: 3px dotted;
+    border-bottom: 3px dotted;
+}
+
+#lista {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 60%;
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    float: left;
+    text-align: left;
+}
+
+#formularz {
+    color: yellow;
+}
+
+#stopka {
+    background-color: green;
+    padding: 5px;
+    text-align: center;
+}
+
+#audio {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-top: 500px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 500px;
+}

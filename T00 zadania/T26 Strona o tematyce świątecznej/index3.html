@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Strona o tematyce świątecznej</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Jakub Kocur 1p">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Stwórz własny prezent świąteczny!</h1>
+        <div id="menu">
+            <a href="index.html">Strona Główna</a>
+        </div>
+        <div id="menu1">
+            <a href="index2.html">Jedzenie Świąteczne</a>
+        </div>
+        <div id="menu2">
+            <a href="index3.html">Daj pomysł na własny prezent!</a>
+        </div>
+    </header>
+    <div id="blok-glowny">
+        <div id="formularz">
+            <form action="http://www.roy.incenter.pl/form/" method="post"" method="post" />
+            <fieldset>
+                <legend> Stwórz swój prezent
+                </legend>
+                <dl>
+                    <dt><strong>Imię:</strong>
+                    </dt>
+                    <dd>
+                        <input type="text" name="Imię" size="30">
+                    </dd>
+                    <dt><strong>E-mail:</strong>
+                    </dt>
+                    <dd>
+                        <input type="email" name="email" size="30">
+                    </dd>
+                    <dt><strong>Adres zamieszkania (Ulica, Miasto, Kod pocztowy):</strong>
+                    </dt>
+                    <dd>
+                        <input type="adress" name="adress" size="30">
+                    </dd>
+                    <label for="kolor"><strong>Kolor opakowania</strong></label>
+                    <select id="kolor">
+                        <option value="own">Wybiore sam/sama</option>
+                        <option value="suprise">Chcę aby to była niespodzianka</option>
+                        <input type="color" name="color"><br>
+                    </select><br>
+                    <dt><strong>Zawartość:</strong>
+                    </dt>
+                    <dd>
+                        <textarea name="zawartosc" rows="30" cols="50"></textarea>
+                    </dd>
+                </dl>
+                <p>
+                    <input type="submit" value="wyślij" />
+                </p>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+    <div id="stopka">
+        <h3>Strona stworzona przez: Jakub Kocur z 1p</h3>
+        <h4>Zespół Szkół Politechnicznych w Głogowie &copy; Wszelkie prawa zastrzeżone</h4>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+:root {
+    font-size: 18px;
+}
+
+* {
+    color: indigo;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+h1 + p {
+    background-color: #128870;
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 14px;
+}
+h2 ~ p {
+    background-color: #1bdc14;
+    font-size: 2em;
+}
+
+li > a {
+    color: #b59d5c;
+    font-size: 1.2rem;
+}
+
+.blok2 {
+    background-color: darkgreen;
+    font-size: 0.8rem;
+}
+
+#bloczek {
+    background-color: orangered;
+    font-size: 2rem;
+}
+
+p a {
+    color: darkred;
+    font-size: 1rem;
+}
+
+.notatka {
+    font-size: 20px;
+}
+
+.notatka2 {
+    font-size: 15px;
+}
