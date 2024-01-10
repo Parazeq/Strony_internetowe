@@ -1,0 +1,33 @@
+.blok1 > h1:first-letter {
+    font-size: 55px;
+    color: #f36742;
+}
+
+a:hover {
+    font-size: 40px;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:link {
+    color: purple;
+}
+
+.blok1 > p:first-line {
+    font-size: 30px;
+    color: red;
+}
+
+.blok2 > p:before {
+    content: '<<<<<';
+}
+
+.blok2 p:after {
+    content: '>>>>>';
+}
