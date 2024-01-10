@@ -1,0 +1,16 @@
+body {
+    background-image: url("Obrazek.jpg"), url("Obrazek.jpg");
+    background-repeat: repeat-y, no-repeat;
+    background-size: 100px;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: 17%;
+}
+
+#kontener {
+    width: 960px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+}
