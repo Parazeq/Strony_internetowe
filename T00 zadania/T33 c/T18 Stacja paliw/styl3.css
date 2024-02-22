@@ -1,0 +1,58 @@
+body{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:"k p"
+                        "i i"
+                        "l o";
+    padding: 5px;
+}
+
+#baner-lewy {
+    grid-area: k;
+    background-color: rgb(130, 69, 85);
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+#baner-prawy {
+    grid-area: p;
+    background-color: rgb(130, 69, 85);
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+#blok-lewy {
+    grid-area: l;
+    background-color: rgb(130, 69, 85);
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+#blok-prawy {
+    grid-area: o;
+    background-color: rgb(130, 69, 85);
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+#blok-glowny {
+    grid-area: i;
+    background-color: rgb(240, 234, 226);
+    padding: 120px;
+    text-align: center;
+}
+
+table, td {
+    border: 1px rgb(130, 69, 85) solid;
+    margin: 10px;
+    color: rgb(130, 69, 85);
+}
+
+a {
+    color: rgb(240, 234, 226);
+}

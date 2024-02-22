@@ -1,0 +1,49 @@
+body {
+    background-color: #600000;
+}
+
+#container {
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+
+#naglowek {
+    text-align: center;
+    background-color: darkred;
+}
+
+#menu {
+    padding-bottom: 5px;
+}
+
+#content {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#stopka {
+    text-align: center;
+    background-color: darkred;
+}
+
+#menu > ul li {
+    display: inline;
+    white-space: nowrap;
+}
+#menu > ul, li {
+    text-align: center;
+}
+#menu > ul a:link, ul a:visited {
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    padding: 4px;
+    border: 2px outset #c0c0c0;
+}
+#menu > ul a:hover {
+    border-style: inset;
+    color: red;
+    padding: 6px 3px 3px 6px;
+}

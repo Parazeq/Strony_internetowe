@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>Menu zagnieżdżone</title>
+    <meta charset="UTF-8">
+    <style>
+        ul, ul li {
+            margin: 0;
+            padding: 0;
+        }
+        #blok li {
+            list-style: none;
+        }
+        #blok, #blok ul {
+            width: 140px;
+        }
+        #blok ul {
+            position: absolute;
+            top: 0;
+            left: 160px;
+            padding-left: 1px;
+            visibility: hidden;
+        }
+        #blok li {
+            padding-bottom: 1px;
+            position: relative;
+        }
+        #blok li:hover ul {
+            visibility: visible;
+            width: auto;
+            height: auto;
+        }
+        #blok a, #blok li:hover li a {
+            display: block;
+            font: 12px/30px verdana, sans-serif;
+            text-decoration: none;
+            padding: 0 10px;
+            width: 140px;
+            color: black;
+            background-color: #c0c0cf;
+        }
+        #blok li:hover a, #blok li:hover li:hover a {
+            background-color: #5f699c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<ul id="blok">
+    <li><a href="aktualnosci.html">Aktualności</a></li>
+    <li><a href="szkolenia.html">Szkolenia</a>
+        <ul>
+            <li><a href="kurs1.html">HTML</a></li>
+            <li><a href="kurs2.html">CSS</a></li>
+            <li><a href="kurs3.html">JavaScript</a></li>
+        </ul>
+    </li>
+    <li><a href="uslugi.html">Usługi</a></li>
+</ul>
+</body>
+</html>
