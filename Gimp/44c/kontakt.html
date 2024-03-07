@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Usługi Informatyczne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+<div id="blok_gorny">
+    <div id="logo">
+        <img src="logo.png" alt="Logo firmy">
+    </div>
+    <div id="menu">
+        <a href="index.html">O nas</a>
+        <a href="uslugi.html">Usługi</a>
+        <a href="kontakt.html">Kontakt</a>
+    </div>
+</div>
+<div id="baner">
+    <img src="Animacja.gif" alt="animacja">
+</div>
+<div id="blok-glowny">
+    <hr>
+    <h2>Kontakt</h2>
+    <table>
+        <tr>
+            <td>Imię:</td>
+            <td><input type="text" id="firstName" name="firstName"></td>
+        </tr>
+        <tr>
+            <td>Nazwisko:</td>
+            <td><input type="text" id="lastName" name="lastName"></td>
+        </tr>
+        <tr>
+            <td>E-mail:</td>
+            <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Usługa:</td>
+            <td><textarea id="serviceDescription" name="serviceDescription"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" id="termsCheckbox" name="termsCheckbox"> Zapoznałam/em się z regulaminem</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="button" id="resetButton">Resetuj</button>
+                <button type="button" id="submitButton">Prześlij</button>
+            </td>
+        </tr>
+    </table>
+    <p id="errorMessage" class="error" style="display:none;">Musisz zapoznać się z regulaminem.</p>
+    <p id="successMessage" style="display:none;"></p>
+    <script src="script.js"></script>
+    <hr>
+</div>
+<div id="stopka">
+    <p>Autor Strony: Jakub Kocur 1p</p>
+</div>
+</body>
+</html>
