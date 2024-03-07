@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+.conteiner {
+    background-color: darkred;
+}
+
+.nagłówek {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-bottom: white 3px dotted;
+}
+
+.zd1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.zd2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.stopka {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
