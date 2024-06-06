@@ -1,5 +1,18 @@
 body {
+    text-align: center;
     background-color: black;
+}
+
+#head {
+    font-size: 30px;
+}
+
+#content {
+    font-size: 30px;
+}
+
+#content1 {
+    font-size: 30px;
 }
 
 #container {
@@ -10,18 +23,144 @@ body {
 }
 
 #nerv {
-    text-align: center;
     animation-name:nerv;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-#rei {
-    margin-left: 200px;
+#Rei {
+    margin-left: 630px;
+    height: 300px;
+    width: 253px;
+}
+
+#Rei:hover {
+    animation-name: rei;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#Rei1:hover {
+    animation-name: rei1;
+    animation-duration: 3s;
+}
+
+#Shin {
+    margin-left: 630px;
+    height: 600px;
+    width: 253px;
+}
+
+#Shin:hover {
+    animation-name: shin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#Shin1:hover {
+    animation-name: shin1;
+    animation-duration: 3s;
+}
+
+#Asuka {
+    margin-left: 630px;
+    height: 300px;
+    width: 253px;
+}
+
+#Asuka:hover {
+    animation-name: asuka;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#Asuka1:hover {
+    animation-name: asuka1;
+    animation-duration: 3s;
+}
+
+#Eva0:hover {
+    animation-name: eva0;
+    animation-duration: 3s;
+}
+
+#Eva00:hover {
+    animation-name: eva00;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#Eva01:hover {
+    animation-name: eva01;
+    animation-duration: 3s;
+}
+
+#Eva011:hover {
+    animation-name: eva011;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#Eva02:hover {
+    animation-name: eva02;
+    animation-duration: 3s;
+}
+
+#Eva022:hover {
+    animation-name: eva022;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes nerv {
     from{ transform: translateX(30%)}
     to{ transform: translateX(-30%)}
+}
+
+@keyframes rei1{
+    50%{box-shadow: 0px 0px 50px deepskyblue}
+}
+
+@keyframes rei{
+    50%{transform: rotateZ(360deg)}
+}
+@keyframes shin1{
+    50%{box-shadow: 0px 0px 50px darkblue}
+}
+
+@keyframes shin{
+    50%{transform: scale(120%)}
+}
+
+@keyframes asuka1{
+    50%{box-shadow: 0px 0px 50px darkred}
+}
+
+@keyframes asuka{
+    50%{transform: scale(50%)}
+}
+
+@keyframes eva0{
+    50%{box-shadow: 0px 0px 50px yellow}
+}
+
+@keyframes eva00{
+    50%{transform: rotateZ(360deg)}
+}
+
+@keyframes eva01{
+    50%{box-shadow: 0px 0px 50px darkblue}
+}
+
+@keyframes eva011{
+    50%{transform: scale(120%)}
+}
+
+@keyframes eva02{
+    50%{box-shadow: 0px 0px 50px darkred}
+}
+
+@keyframes eva022{
+    50%{transform: scale(50%)}
 }
